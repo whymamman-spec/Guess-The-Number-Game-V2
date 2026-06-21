@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+
+    padding: 30px;
+
+    width: 400px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 80%;
+
+    padding: 10px;
+
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+
+    margin: 5px;
+
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+
+    padding: 0;
+}
